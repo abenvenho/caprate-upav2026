@@ -1,0 +1,36 @@
+Árvore de regressão — 12 folhas (limiares em unidades originais; valores em % a.a.)
+
+|--- Padrão <= 4.03
+|   |--- Área (m²) <= 41.00
+|   |   |--- value: [11.48]
+|   |--- Área (m²) >  41.00
+|   |   |--- Área (m²) <= 84.50
+|   |   |   |--- Área (m²) <= 66.50
+|   |   |   |   |--- value: [10.15]
+|   |   |   |--- Área (m²) >  66.50
+|   |   |   |   |--- value: [8.08]
+|   |   |--- Área (m²) >  84.50
+|   |   |   |--- value: [10.18]
+|--- Padrão >  4.03
+|   |--- Região: Vila Olímpia <= 0.50
+|   |   |--- Estado <= 0.57
+|   |   |   |--- Região: Paulista <= 0.50
+|   |   |   |   |--- value: [8.37]
+|   |   |   |--- Região: Paulista >  0.50
+|   |   |   |   |--- value: [7.18]
+|   |   |--- Estado >  0.57
+|   |   |   |--- Estado <= 0.62
+|   |   |   |   |--- value: [5.39]
+|   |   |   |--- Estado >  0.62
+|   |   |   |   |--- Estado <= 0.75
+|   |   |   |   |   |--- value: [7.37]
+|   |   |   |   |--- Estado >  0.75
+|   |   |   |   |   |--- value: [6.46]
+|   |--- Região: Vila Olímpia >  0.50
+|   |   |--- Área (m²) <= 151.50
+|   |   |   |--- value: [11.24]
+|   |   |--- Área (m²) >  151.50
+|   |   |   |--- Área (m²) <= 302.00
+|   |   |   |   |--- value: [7.32]
+|   |   |   |--- Área (m²) >  302.00
+|   |   |   |   |--- value: [6.91]

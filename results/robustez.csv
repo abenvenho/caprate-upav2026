@@ -1,0 +1,21 @@
+esquema,modelo,RMSE (p.p.),MAE (p.p.),R²,dCor
+"KFold aninhado, seed 42",Ridge,2.5266,1.8745,0.1786,0.4615
+"KFold aninhado, seed 42",Árvore,2.4241,1.7878,0.2439,0.5131
+"KFold aninhado, seed 42",MLP,2.5907,1.9572,0.1364,0.4322
+"KFold aninhado, seed 42",Ensemble,2.4900,1.8557,0.2022,0.4558
+"KFold aninhado, seed 0",Ridge,2.4896,1.8386,0.2025,0.4780
+"KFold aninhado, seed 0",Árvore,2.5071,1.8476,0.1912,0.4676
+"KFold aninhado, seed 0",MLP,2.4896,1.8891,0.2025,0.4861
+"KFold aninhado, seed 0",Ensemble,2.4371,1.8209,0.2358,0.4973
+"KFold aninhado, seed 7",Ridge,2.4853,1.8448,0.2052,0.4833
+"KFold aninhado, seed 7",Árvore,2.6052,1.8951,0.1267,0.4438
+"KFold aninhado, seed 7",MLP,2.5441,1.9842,0.1672,0.4628
+"KFold aninhado, seed 7",Ensemble,2.4352,1.8357,0.2370,0.5126
+"KFold aninhado, seed 123",Ridge,2.4771,1.8292,0.2105,0.4879
+"KFold aninhado, seed 123",Árvore,2.4737,1.8505,0.2126,0.4961
+"KFold aninhado, seed 123",MLP,2.5010,1.9124,0.1952,0.4763
+"KFold aninhado, seed 123",Ensemble,2.4187,1.8106,0.2472,0.5029
+GroupKFold por edifício (182 edifícios),Ridge,2.5137,1.8805,0.1870,0.4650
+GroupKFold por edifício (182 edifícios),Árvore,2.6146,1.8569,0.1204,0.4261
+GroupKFold por edifício (182 edifícios),MLP,2.5817,1.9847,0.1424,0.4405
+GroupKFold por edifício (182 edifícios),Ensemble,2.4967,1.8498,0.1979,0.4667

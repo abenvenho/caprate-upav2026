@@ -1,0 +1,8 @@
+# Versões exatas usadas na verificação que reproduziu a Tabela 4 do artigo.
+# A MLP é sensível à versão do scikit-learn; com outras versões o RMSE pode variar na 2ª casa.
+scikit-learn==1.9.1
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+dcor==0.7
+matplotlib==3.11.2

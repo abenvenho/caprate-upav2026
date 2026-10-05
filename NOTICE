@@ -1,0 +1,17 @@
+Cap rates por combinação de especialistas — UPAV 2026
+Copyright 2026 Agnaldo Calvi Benvenho e Osório Accioly Gatto
+
+Licenciamento deste repositório / Licensing of this repository:
+
+  * Código-fonte (code/, app/)                         → Apache License 2.0 (arquivo LICENSE)
+  * Dados, resultados e figuras (data/, results/,      → Creative Commons Attribution 4.0
+    figures/)                                             International (arquivo LICENSE-CC-BY-4.0)
+  * Artigo e apresentação (paper/, presentation/)      → CC BY 4.0 (arquivo LICENSE-CC-BY-4.0)
+
+A base de dados reúne observações de mercado de escritórios corporativos em São Paulo
+(2022–2026) compiladas pelos autores, com geocodificação dos endereços e reclassificação
+geoespacial das regiões de mercado.
+
+The dataset gathers market observations of corporate offices in São Paulo (2022–2026)
+compiled by the authors, with geocoded addresses and a geospatial reclassification of
+market submarkets.

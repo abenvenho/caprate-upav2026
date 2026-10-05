@@ -1,0 +1,9 @@
+# Aplicativo (app/) e scripts (code/)
+streamlit>=1.50
+plotly>=6.0
+scikit-learn>=1.5
+dcor>=0.6
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8

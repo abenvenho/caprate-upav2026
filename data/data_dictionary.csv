@@ -1,0 +1,23 @@
+coluna,uso_no_artigo,tipo,n_distintos,minimo,maximo,descricao
+id,auxiliar,int64,247,1,247,Identificador sequencial da observação (criado para o repositório)
+Localização,auxiliar,str,35,,,Bairro informado na fonte da observação
+Endereço,auxiliar,str,184,,,Endereço do imóvel (logradouro e número)
+Taxa a.a (%),alvo,float64,214,0.0314,0.1835,"Variável dependente: cap rate anual em forma decimal (0,07 = 7% a.a.); renda operacional líquida anual ÷ valor de mercado. Os scripts usam ×100 (p.p.)"
+Área (m²),modelo,int64,155,17,2844,Área útil privativa da unidade (m²)
+Latitude,auxiliar,float64,182,-23.6549,-23.5183,"Latitude (graus decimais, WGS84) obtida por geocodificação do endereço"
+Longitude,auxiliar,float64,182,-46.7398,-46.6313,"Longitude (graus decimais, WGS84) obtida por geocodificação do endereço"
+Índice Fiscal,auxiliar,int64,147,436,29545,"Valor do m² de terreno na Planta Genérica de Valores (Índice Fiscal) de São Paulo, R$/m²"
+dist_paulista_km,auxiliar,float64,179,0.058,12.214,Distância em linha reta até a Av. Paulista (km)
+dist_faria_lima_km,auxiliar,float64,181,0.185,8.913,Distância em linha reta até a Av. Brigadeiro Faria Lima (km)
+dist_berrini_km,auxiliar,float64,180,0.049,9.537,Distância em linha reta até a Av. Eng. Luiz Carlos Berrini (km)
+dist_vila_olimpia_km,auxiliar,float64,180,0.019,9.462,Distância em linha reta até ponto de referência em Vila Olímpia (km)
+dist_marg_tiete_km,auxiliar,float64,181,1.146,16.228,Distância em linha reta até a Marginal Tietê (km)
+dist_marg_pinheiros_km,auxiliar,float64,178,1.19,10.237,Distância em linha reta até a Marginal Pinheiros (km)
+dist_dutra_km,auxiliar,float64,180,13.794,29.159,Distância em linha reta até a Rodovia Presidente Dutra (km)
+Padrão,modelo,float64,9,2.313,8.722,"Padrão construtivo pelo Índice de Unidades Padronizadas (IUP, IBAPE/SP)"
+Estado,modelo,float64,80,0.0995,0.979,Estado de conservação: fator K de Ross-Heidecke (0 a 1)
+DATA,"modelo (dummies, ref. 2022)",int64,4,2022,2026,Ano da observação
+Tipologia,auxiliar,str,4,,,"Tipologia da unidade (Conjunto, Laje, Sala, Prédio Comercial)"
+Escritório,auxiliar,int64,2,0,1,Indicador de uso escritório (1 = sim)
+Regiao_original,auxiliar,str,12,,,Região de mercado na classificação original da coleta
+Regiao_final,"modelo (dummies, ref. Barra Funda)",str,12,,,"Região após reclassificação geoespacial por polígonos (GeoPandas, EPSG:4326). No modelo, 'Pinheiros' (2 obs.) é incorporada a 'Jardins', resultando nas 11 regiões do artigo"

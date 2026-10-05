@@ -1,0 +1,10 @@
+{
+  "pesos": {
+    "Ridge": 0.1788,
+    "Árvore": 0.6411,
+    "MLP": 0.1417
+  },
+  "intercepto": 0.3182,
+  "alpha": 0.001,
+  "nota": "Ajuste RidgeCV sobre as previsões OOF; reproduz exatamente a Tabela 4. O texto do artigo (Seções 5.1 e 7.1) informa 0,0035 / 0,5144 / 0,4217, valores que não reproduzem a Tabela 4 (ver README)."
+}
